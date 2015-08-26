@@ -27,7 +27,7 @@ module.exports = {
           sassDir: inputPath,
           cssDir: outputPath,
           importPath: '.',
-          files: [inputPath + '/app.scss'],
+          files: [inputPath + '/app.sass'],
           outputStyle: 'compressed',
           compassCommand: 'compass'
         };
